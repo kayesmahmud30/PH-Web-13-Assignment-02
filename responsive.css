@@ -33,8 +33,24 @@
     width: 100%;
   }
 
+  .banner-container .banner-logo .mic-logo {
+    width: 220px;
+    height: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+  }
 
-/* Remaining Point */
+  .mic {
+    width: 70px;
+  }
+
+  .banner-container .new-tag {
+    margin-left: 45px;
+    margin-top: 15px;
+    padding: 4px 10px;
+  }
 
   #podcast .podcast-container {
     width: 90%;
@@ -94,8 +110,6 @@
     gap: 30px;
     flex-direction: column;
   }
-
-  /* .card-container {} */
 
   #host {
     padding-bottom: 50px;
