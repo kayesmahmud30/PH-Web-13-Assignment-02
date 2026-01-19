@@ -53,6 +53,10 @@ nav ul li a {
   color: #fff;
 }
 
+nav img{
+  display: none;
+}
+
 nav button {
   background: linear-gradient(
     to bottom left,
@@ -491,7 +495,7 @@ footer .footer-container {
 }
 
 .footer-container .footer-logo {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
   color: #fff;
 }
