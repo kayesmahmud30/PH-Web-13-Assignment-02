@@ -25,7 +25,8 @@ nav h1 {
   font-weight: 800;
 }
 
-nav h1 span {
+nav h1 span,
+.host-social a {
   background: linear-gradient(
     to left bottom,
     rgba(145, 0, 248, 1),
@@ -355,4 +356,67 @@ nav button {
   font-size: 16px;
   font-weight: 600;
   margin-top: 12px;
+}
+
+#host {
+  background: #1a0b2e;
+  color: #fff;
+  padding-bottom: 120px;
+}
+
+#host h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+#host .host-bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  max-width: 75%;
+  margin: 0 auto;
+  background-color: #250d44;
+  border-radius: 40px;
+  padding: 50px 10px;
+}
+
+.host-bio > img {
+  width: 200px;
+}
+
+.host-bio .host-detail {
+  max-width: 80%;
+}
+
+/* 
+.host-detail .host-social{
+ 
+} */
+
+.host-detail h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.host-detail p {
+  font-size: 16px;
+  color: #fff;
+  opacity: 60%;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.host-detail .host-social a {
+  border-radius: 150px;
+  padding: 8px;
+  border: 2px solid #533c72;
+  font-size: 25px;
+  margin-right: 8px;
 }
